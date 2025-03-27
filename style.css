@@ -58,6 +58,7 @@ img {
 .tag_container {
   display: flex;
   margin-bottom: 0.5em;
+  list-style: none;
 }
 
 .tag {
@@ -77,6 +78,10 @@ img {
 
 .tag + .tag {
   margin-left: 0.5em;
+}
+
+.tag a {
+  text-decoration: none;
 }
 
 .tag-purple {
